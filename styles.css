@@ -3,17 +3,49 @@ body {
 }
 
 h1 {
-    color:aqua;
-}
-
-title {
     font-size: larger;
 }
 
 p {
-    font
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid pink;
+}
+
+h2 {
+    font-size: larger;
 }
 
 .highlight {
-    title
+    font-size: 15px;
+}
+
+.note {
+    background-color: beige;
+    font-size: large;
+}
+
+.feature {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+    border: 2px solid black;
+    color: white;
+}
+
+#main-content {
+    padding: 20px;
+    margin: 20px auto;
+}
+
+nav a {
+    color: chartreuse;
+}
+
+.card {
+    width: 20px;
+    padding: 20px;
+    border: 1px solid #333;
+    margin: 20px auto;
+}
+
+* {
+    box-sizing: border-box;
 }
