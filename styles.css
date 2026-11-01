@@ -14,12 +14,6 @@
     justify-content: center;
 }
 
-@media (max-width: 600px) {
-    .box {
-        padding: 2px;
-    }
-
-
     .centering {
         flex-direction: column;
     }
