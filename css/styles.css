@@ -1,0 +1,26 @@
+.box {
+    max-width: 900px;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.centering {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .box {
+        padding: 2px;
+    }
+
+
+    .centering {
+        flex-direction: column;
+    }
+}
